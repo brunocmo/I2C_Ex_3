@@ -1,9 +1,7 @@
-#include <iostream>
+#include <cassert>
+
+#include "c.h"
 
 int main() {
-
-  std::cout << "Hello World" << '\n';
-
-  return 0;
-
+    assert(f() == 1);
 }
