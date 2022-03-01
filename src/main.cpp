@@ -1,7 +1,7 @@
-#include <cassert>
-
-#include "c.h"
+#include <cstdio>
 
 int main() {
-    assert(f() == 1);
+    std::printf("Olá mundo\n");
+
+    return 0;
 }
